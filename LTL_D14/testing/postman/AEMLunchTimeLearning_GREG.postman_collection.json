@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "978d6826-abac-4c6a-bc54-89ba0325d1e7",
+		"name": "AEMLunchTimeLearning_GREG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LTL_D14_CreateJcrContent",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:4502/bin/submitdata",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"bin",
+						"submitdata"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
