@@ -16,4 +16,8 @@
     </jcr:content>
     <en/>
     <fr/>
+    <demo-service jcr:primaryType="nt:unstructured" 
+    	sling:resourceType="gregdemo/demo"/>
+    <demo-page jcr:primaryType="nt:unstructured" 
+    	sling:resourceType="gregdemo/components/content/demo"/>    	
 </jcr:root>

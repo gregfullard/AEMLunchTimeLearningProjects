@@ -44,12 +44,14 @@ public class JSONServlet extends SlingSafeMethodsServlet {
 			/**
 			 * Getting the JSON string from the webservice
 			 */
-			String responseString = Network.readJson(URL);
+			//String responseString = Network.readJson(URL);
 
 			/**
 			 * Writing the entire JSON string on the browser
 			 */
-			response.getWriter().println(responseString);
+			//response.getWriter().println(responseString);
+			
+			response.getWriter().println("Hello world");
 
 		} catch (Exception e) {
 
